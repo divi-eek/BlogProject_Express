@@ -1,0 +1,35 @@
+
+.navbar{
+    background-color: black !important;
+ }
+ footer{
+     background-color: black;
+     padding: 50px;
+     color: white;
+  }
+ 
+  .ml-1{
+     padding-top: 20px;
+     text-transform: uppercase;
+     font-family:'prague';
+     font-size: 3 rem;
+     line-height: 50px;
+     letter-spacing: 3px;
+     color:rgb(255, 255, 255);
+  }
+ 
+  .footer p{
+     color: white;
+  }
+ 
+ 
+ 
+ 
+ 
+  @media (max-width:768px) {
+ 
+     .navimg{
+         display: none;
+     }
+  }
+  
