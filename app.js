@@ -10,6 +10,10 @@ const connect=require('./Db/connectDB')
 //dbconnect
 connect()
 
+//data get converts into object
+app.use(express.urlencoded({extended:false}))
+
+
 //html css template engines 
 app.set('view engine','ejs')
 

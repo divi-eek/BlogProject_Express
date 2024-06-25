@@ -1,3 +1,7 @@
+const BlogModel=require('../../models/blog')
+
+
+
 class BlogController {
   static display = async (req, res) => {
     try {

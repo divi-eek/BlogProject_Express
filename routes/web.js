@@ -23,10 +23,12 @@ route.get('/admin/dashboard',AdminController.dashboard)
 
 //display categories
 route.get('/admin/categoryDisplay',CategoryController.display)
+route.post('/admin/categoryInsert',CategoryController.categoryInsert)
 
 
 //display blogs
 route.get('/admin/blogDisplay',BlogController.display)
+
 
 
 
